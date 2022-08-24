@@ -1,7 +1,6 @@
 let score = 20;
 let highScore = 0;
 let random = Math.trunc(Math.random() * 20) + 1;
-console.log(random);
 
 function displayMassage(message) {
   document.querySelector('.message').textContent = message;
@@ -65,7 +64,6 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.number').textContent = '?';
   document.querySelector('body').style.backgroundColor = '#222';
   random = Math.trunc(Math.random() * 20) + 1;
-  console.log(random);
   score = 20;
   scoreUpdate(score);
   displayMassage('Start guessing...');
