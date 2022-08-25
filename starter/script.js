@@ -53,7 +53,7 @@ document.querySelector('.check').addEventListener('click', function () {
       }
       document.querySelector('body').style.backgroundColor = '#60b347';
       displayMassage('Correct number!');
-      score = 1;
+      score = 0;
     }
   }
 });
